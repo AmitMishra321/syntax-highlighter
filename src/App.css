@@ -1,0 +1,51 @@
+.code-editor {
+  width: 100%;
+  height: calc(100vh - 150px);
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+}
+
+.controls label {
+  display: flex;
+  flex-direction: column;
+}
+
+.code-editor select,
+.code-editor textarea {
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.code-editor textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  all: unset;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.editor {
+  width: 50%;
+  height: 100%;
+  border-right: 0.75px solid #808080;
+  padding: 10px;
+}
+
+
+.highlight {
+  width: 50%;
+  height: 100%;
+  /* padding: 10px; */
+}
