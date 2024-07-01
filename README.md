@@ -1,5 +1,5 @@
 # React + TypeScript + Vite
 
-## npx Install
+## npm Install
 
-## npx run dev
+## npm run dev
